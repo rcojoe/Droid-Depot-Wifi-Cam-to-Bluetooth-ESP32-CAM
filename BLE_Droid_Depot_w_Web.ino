@@ -1,7 +1,7 @@
 /**
  * A BLE client that allows the control of Droid Depot droids through wifi.  It also uses the esp32-cam module to send video to the html remote.
  * template updated by chegewara
- * Not sure if I can clame to be the author or just the updater to this example script that I expanded:  Joe Schalk
+ * Not sure if I can clame to be the author or just the updater to this example script that I expanded:  https://github.com/rcojoe
  * Inspired by the work of:
  * Niko at https://nkmakes.github.io/2020/09/02/esp32-tank-robot-joystick-http-web-control/
  * @baptistelaget at https://medium.com/@baptistelaget/controlling-disneys-droids-from-droid-depots-with-webbluetooth-febbabe50587
