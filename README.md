@@ -5,6 +5,7 @@
  * There is a lot new capabilities implemented.
  * author unknown
  * updated by chegewara
+ * updated by Joe Schalk
  * Inspired by the work of:
  * Niko at https://nkmakes.github.io/2020/09/02/esp32-tank-robot-joystick-http-web-control/
  * @baptistelaget at https://medium.com/@baptistelaget/controlling-disneys-droids-from-droid-depots-with-webbluetooth-febbabe50587
