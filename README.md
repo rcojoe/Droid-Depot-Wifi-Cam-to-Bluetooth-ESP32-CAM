@@ -3,6 +3,7 @@
 So I came up and created this during a covid outbreak at my house for my kids.  They wanted a way to stay in their room but still come out and explore the house while they were in quarentine. We had been to the Droid Depot at Disney a few years earlier.  The kids made some droids while there and we had a great time with them, but then they didn't use them anymore, and were more center peices in their room until now.  
 
 The first version had a baby monitor duct taped to R2's head.  The photo is below.  That worked well for two way communication but lacked any control after about 20 feet outside their door. The cons were the bluetooth range was poor using the native remote and the camera needed to be turned on and off each time because the baby monitor camera drained them after a few hours of being on.
+Here is a movie of it:
 https://user-images.githubusercontent.com/11729742/151645639-a618f7a6-f5d4-4b2a-b467-744e52b01d3b.MP4
 
 The second version had a baby monitor on top but used a standard ESP32 for wifi to bluetooth communications.  It used the same code below,  without web based video.  This worked really well and is what we used during quarentine.  The cons was that the baby monitor was heavy and R2 was a bit top heavy with it mounted. The baby monitor took up the space of where we evetually duct taped a basket for passing items back and forth from the living room and back to their room, like snacks.  
@@ -14,28 +15,28 @@ The 3rd version included the esp32-cam.  This came in from an order from amazon 
 ![IMG_2033](https://user-images.githubusercontent.com/11729742/151645622-2ab68d9e-c23a-4fb4-9654-79bde963a919.JPEG)
 ![IMG_2034](https://user-images.githubusercontent.com/11729742/151645624-cf83d0a1-0cf6-402c-a342-aef8ff99347d.JPEG)
 
-
-
-
-Setup is simple: 
-
-Get the Aruduino IDE
-Download the code here.
-Set your home's wifi info on line 436 and if you have a repeater,  use it as an alternative wifi on the next line.
-Compile and send to the esp32-cam
-Let it boot.  
-If you have serial monitor hooked to it, then it will tell you the IP address
-The mdns hostname is set on line 452.  Its set to ESP32droidblecam.
-Thats about it.
-
-To hook it to a droid,
-Turn the remote off.  Turn the droid off for a few seconds and back on.
-Restart the ESP32 using the reset button or by power interuption.
-After about 10-15 seconds, the droid will play a little tune which means the bluetooth is hooked up.
-Using a browser (I used Chrome and Safari) go to the mdns address or the IP (I used the IP address). 
-The website should quickly load and display the camera footage.  Use your finger or mouse to drag the green circle around the screen.
-
-Some notes for testing:
+<br>
+<br>
+<br>
+Setup is simple: <br>
+<br>
+Get the Aruduino IDE<br>
+Download the code here.<br>
+Set your home's wifi info on line 436 and if you have a repeater,  use it as an alternative wifi on the next line.<br>
+Compile and send to the esp32-cam<br>
+Let it boot.  <br>
+If you have serial monitor hooked to it, then it will tell you the IP address<br>
+The mdns hostname is set on line 452.  Its set to ESP32droidblecam.<br>
+Thats about it.<br>
+<br>
+To hook it to a droid,<br>
+Turn the remote off.  Turn the droid off for a few seconds and back on.<br>
+Restart the ESP32 using the reset button or by power interuption.<br>
+After about 10-15 seconds, the droid will play a little tune which means the bluetooth is hooked up.<br>
+Using a browser (I used Chrome and Safari) go to the mdns address or the IP (I used the IP address). <br>
+The website should quickly load and display the camera footage.  Use your finger or mouse to drag the green circle around the screen.<br>
+<br>
+Some notes for testing:<br>
 Once finished programming using a usb cable,  leave it plugged into your computer to make sure it reboots with a good IP address and also connects to the droid.  The esp32 or esp32-cam does not have to be on the droid to contol it,  it just need to be within about 15 feet of it to use and test.  Once the bluetooth connection and wifi connection is verifed, then move it over to the droid and power it with the power bank like I did.  
 
 
