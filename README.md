@@ -6,6 +6,7 @@ The first version had a baby monitor duct taped to R2's head.  The photo is belo
 https://user-images.githubusercontent.com/11729742/151645639-a618f7a6-f5d4-4b2a-b467-744e52b01d3b.MP4
 
 The second version had a baby monitor on top but used a standard ESP32 for wifi to bluetooth communications.  It used the same code below,  without web based video.  This worked really well and is what we used during quarentine.  The cons was that the baby monitor was heavy and R2 was a bit top heavy with it mounted. The baby monitor took up the space of where we evetually duct taped a basket for passing items back and forth from the living room and back to their room, like snacks.  
+The 2nd version was too heavy for the bb8, so use the 3rd version for them.
 
 The 3rd version included the esp32-cam.  This came in from an order from amazon about 3 days before our quarentine ended, so we didn't get much time to test it out or perfect the coding, but it did allow a basket to be mounted on top, but the con is that it lacks 2 way communication onboard.  I'm sure there is a way to figure this out, but I didn't need to because shouting back and forth worked for the last couple days of a 10 day quarentine (imagine that).  
 
@@ -13,7 +14,7 @@ The 3rd version included the esp32-cam.  This came in from an order from amazon 
 ![IMG_2033](https://user-images.githubusercontent.com/11729742/151645622-2ab68d9e-c23a-4fb4-9654-79bde963a919.JPEG)
 ![IMG_2034](https://user-images.githubusercontent.com/11729742/151645624-cf83d0a1-0cf6-402c-a342-aef8ff99347d.JPEG)
 
-The 2nd version was too heavy for the bb8 that we have too, so version 3 works very well for the bb8 units too.
+
 
 
 Setup is simple: 
