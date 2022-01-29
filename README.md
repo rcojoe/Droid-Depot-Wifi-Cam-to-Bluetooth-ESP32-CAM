@@ -20,3 +20,10 @@
  *    without a FDTI.  I have a fully isolated, transformer seperated DSO Tech SH098C3 FDTI for maximum safety while I was doing energy monitoring development but that wouldn't deliver enough power to run the esp32-cam at the 5 volt side (recommended) did allow it to boot at 3.3v with lots of video noise.
  * 
  */
+![IMG_2032](https://user-images.githubusercontent.com/11729742/151645617-78e3cadb-89b6-4be4-b4de-3f733bf52c82.JPEG)
+![IMG_2033](https://user-images.githubusercontent.com/11729742/151645622-2ab68d9e-c23a-4fb4-9654-79bde963a919.JPEG)
+![IMG_2034](https://user-images.githubusercontent.com/11729742/151645624-cf83d0a1-0cf6-402c-a342-aef8ff99347d.JPEG)
+
+
+https://user-images.githubusercontent.com/11729742/151645639-a618f7a6-f5d4-4b2a-b467-744e52b01d3b.MP4
+
